@@ -1,17 +1,17 @@
 .carre {
-	height: 200px;
-	width: 200px;
+  height: 200px;
+  width: 200px;
 }
 
 @media screen and (max-width: 499px) {
-	.carre {
-		background-color: blue;
-	}
+  .carre {
+    background-color: blue;
+  }
 }
 
 @media screen and (min-width: 800px) {
-	.carre {
-		background-color: red;
-	}
+  .carre {
+    background-color: red;
+  }
 }
 
