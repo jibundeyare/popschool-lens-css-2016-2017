@@ -1,0 +1,13 @@
+.composant {
+	margin-bottom: 10px;
+}
+
+.composant .label {
+	display: inline-block;
+	width: 70px;
+}
+
+.composant .champ {
+	display: inline-block;
+}
+
