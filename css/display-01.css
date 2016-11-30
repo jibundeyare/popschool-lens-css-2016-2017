@@ -1,0 +1,25 @@
+.display-inline {
+	display: inline;
+}
+
+.display-block {
+	display: block;
+}
+
+.bouton {
+	background-color: black;
+	border-radius: 5px;
+	color: white;
+	display: inline-block;
+	margin: 5px 5px 5px 5px;  
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+}
+
+.bouton:hover {
+	background-color: grey;
+	color: black;
+	font-weight: bold;
+}
+
+
