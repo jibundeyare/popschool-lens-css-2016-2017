@@ -3,7 +3,7 @@
   width: 200px;
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 799px) {
   .carre {
     background-color: blue;
   }
