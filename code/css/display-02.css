@@ -1,0 +1,28 @@
+/*
+supprime la marge du document
+force la hauteur à 100% du navigateur
+*/
+html, body {
+	height: 100%;
+	margin: 0;
+	width: 100%;
+}
+
+#gauche {
+	background-color: red;
+	height: 50%;
+	left: 0%;
+	position: absolute;
+	top: 0px;
+	width: 50%;
+}
+
+#droite {
+	background-color: blue;
+	height: 50%;
+	left: 50%;
+	position: absolute;
+	top: 0px;
+	width: 50%;
+}
+

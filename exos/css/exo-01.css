@@ -1,0 +1,20 @@
+.carre {
+	height: 100px;
+	width: 100px;
+}
+
+#carre-1 {
+	background-color: red;
+	left: 0px;
+	position: relative;
+	top: 0px;
+}
+
+#carre-2 {
+	background-color: green;
+}
+
+#carre-3 {
+	background-color: blue;
+}
+

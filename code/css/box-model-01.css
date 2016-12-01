@@ -1,0 +1,18 @@
+#contenant {
+	background-color: beige;
+	border: 5px dotted grey;
+	display: inline-block;
+	left: 100px;
+	margin: 50px 50px 50px 50px;
+	padding: 20px 20px 20px 20px;
+	position: absolute;
+	top: 100px;
+}
+
+#carre {
+	background-color: pink;
+	height: 200px;
+	margin: 10px 10px 10px 10px;
+	width: 200px;
+}
+

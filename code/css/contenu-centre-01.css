@@ -1,0 +1,10 @@
+body {
+	background-color: beige;
+}
+
+.contenant {
+	background-color: white;
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
