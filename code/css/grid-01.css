@@ -1,0 +1,48 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.habillage {
+	float: left;
+	margin-right: 10px;
+}
+
+.ligne {
+	padding: 0 5px;
+}
+
+.ligne::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.colonne {
+	float: left;
+	padding: 0 5px;
+}
+
+.colonne.largeur-2 {
+	width: 50%;
+}
+
+.colonne.largeur-3 {
+	width: 33.33%;
+}
+
+@media screen and (max-width: 600px) {
+	.colonne.largeur-2 {
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.colonne.largeur-3 {
+		width: auto;
+	}
+}
+
