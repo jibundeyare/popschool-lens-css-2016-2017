@@ -11,6 +11,10 @@ html {
 	margin-right: 10px;
 }
 
+.ligne {
+	padding: 0 5px;
+}
+
 .ligne::after {
 	content: "";
 	display: table;
@@ -19,9 +23,14 @@ html {
 
 .colonne {
 	float: left;
-	min-width: 320px;
 	padding: 0 5px;
 	width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+	.colonne {
+		width: auto;
+	}
 }
 
 .fond-bleu {
