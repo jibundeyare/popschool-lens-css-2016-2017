@@ -1,0 +1,16 @@
+#google-logo {
+  max-width: 500px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: lightgrey;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+

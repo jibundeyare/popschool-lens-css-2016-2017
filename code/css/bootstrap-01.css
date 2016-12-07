@@ -1,0 +1,16 @@
+body {
+	background-color: beige;
+}
+
+.container {
+	background-color: white;
+}
+
+section {
+	background-color: aliceblue;
+}
+
+section .container {
+	background-color: aliceblue;
+}
+
