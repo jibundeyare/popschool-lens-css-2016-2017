@@ -1,16 +1,47 @@
+html, body {
+  height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -35px; 
+}
+
+.page-wrap::after {
+  content: "";
+  display: block;
+}
+
+footer, .page-wrap::after {
+  height: 35px; 
+}
+
 #google-logo {
-  max-width: 500px;
+	margin: 100px 0 25px;
+	width: 100%;
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+	#google-logo {
+		width: 70%;
+	}
+
+	#google-search {
+		width: 70%;
+	}
 }
 
 .margin-top-20 {
   margin-top: 20px;
 }
 
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+
 footer {
   background-color: lightgrey;
-  bottom: 0px;
-  left: 0px;
-  position: absolute;
-  width: 100%;
+  line-height: 35px;
 }
 
