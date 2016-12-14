@@ -1,39 +1,39 @@
 #contenant {
-	background-color: beige;
-	height: 600px;
-	left: 100px;
-	position:  absolute;
-	top: 100px;
-	width: 800px;
+  background-color: beige;
+  height: 600px;
+  left: 100px;
+  position:  absolute;
+  top: 100px;
+  width: 800px;
 }
 
 .carre {
-	height: 100px;
-	position: absolute;
-	width: 100px;
+  height: 100px;
+  position: absolute;
+  width: 100px;
 }
 
 #carre-1 {
-	background-color: red;
-	left: 0px;
-	top: 0px;
+  background-color: red;
+  left: 0px;
+  top: 0px;
 }
 
 #carre-2 {
-	background-color: green;
-	right: 0px;
-	top: 0px;
+  background-color: green;
+  right: 0px;
+  top: 0px;
 }
 
 #carre-3 {
-	background-color: blue;
-	right: 0px;
-	bottom: 0px;
+  background-color: blue;
+  right: 0px;
+  bottom: 0px;
 }
 
 #carre-4 {
-	background-color: pink;
-	left: 0px;
-	bottom: 0px;
+  background-color: pink;
+  left: 0px;
+  bottom: 0px;
 }
 

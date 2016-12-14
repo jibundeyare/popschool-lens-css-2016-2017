@@ -5,7 +5,7 @@ html, body {
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -35px; 
+  margin-bottom: -35px;
 }
 
 .page-wrap::after {
@@ -14,22 +14,22 @@ html, body {
 }
 
 footer, .page-wrap::after {
-  height: 35px; 
+  height: 35px;
 }
 
 #google-logo {
-	margin: 100px 0 25px;
-	width: 100%;
+  margin: 100px 0 25px;
+  width: 100%;
 }
 
 @media screen and (min-width: 400px) and (max-width: 768px) {
-	#google-logo {
-		width: 70%;
-	}
+  #google-logo {
+    width: 70%;
+  }
 
-	#google-search {
-		width: 70%;
-	}
+  #google-search {
+    width: 70%;
+  }
 }
 
 .margin-top-20 {
@@ -37,7 +37,7 @@ footer, .page-wrap::after {
 }
 
 .margin-bottom-20 {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 footer {
