@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/exo-07-corrigé.css" />
+  </head>
+  <body>
+
+  <!--
+  documentez les fonctionnalités de bootstrap
+
+  # pour chaque section
+  utilisez une mise en page 1/3 + 2/3 :
+  - dans la colonne 1/3 : le titre
+  - dans la colonne 2/3 : la description de la fonctionnalité
+  puis faites l'exo en dessous
+
+  attention : utilisez la classe `container` (et pas `container-fluid`) sur tous les exos
+  -->
+
+  <section class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>exo 7</h1>
+      </div>
+    </div>
+  </section>
+
+  <!--
+  # section 1
+  faites une mise en page en 1 colonne de largeur de 4, centrée, en écran sm
+  qui se transforme en 1 colonne de largeur de 3, centrée, en écran md
+  dans la colonne, insérez un formulaire :
+  - nom
+  - date de naissance (un seul champ input, pas de select ou autre)
+  - adresse
+  - code postal
+  - localité
+  - bouton de validation
+
+  chaque champ doit avoir un label qui sera positionné au dessus du champ
+  -->
+
+  <section class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>section 1</h2>
+      </div>
+      <div class="col-md-8">
+        <p>
+          faites une mise en page en 1 colonne de largeur de 4, centrée, en écran sm qui se transforme en 1 colonne de largeur de 3, centrée, en écran md
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <div class="bg col-sm-4 col-md-3 col-sm-center col-md-center col-lg-center">
+        <form>
+          <div class="form-group">
+          <label for="nom">Nom</label>
+          <input type="text" class="form-control" id="nom" placeholder="Votre nom">
+          </div>
+          <div class="form-group">
+          <label for="date_naissance">Date de naissance</label>
+          <input type="text" class="form-control" id="date_naissance" placeholder="Votre date de naissance">
+          </div>
+          <div class="form-group">
+          <label for="adresse">Adresse</label>
+          <input type="text" class="form-control" id="adresse" placeholder="Votre adresse de naissance">
+          </div>
+          <div class="form-group">
+          <label for="code_postal">Code postal</label>
+          <input type="text" class="form-control" id="code_postal" placeholder="Votre code postal de naissance">
+          </div>
+          <div class="form-group">
+          <label for="localite">Localité</label>
+          <input type="text" class="form-control" id="localite" placeholder="Votre localité de naissance">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!--
+  # section 2
+  reprenez le formulaire de la section 1 et
+  mettez certains champs en mode validé et d'autres en mode erreur
+  -->
+
+  <section class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>section 2</h2>
+      </div>
+      <div class="col-md-8">
+        <p>
+          reprenez le formulaire de la section 1 et mettez certains champs en mode validé et d'autres en mode erreur
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <div class="bg col-sm-4 col-md-3 col-sm-center col-md-center col-lg-center">
+        <form>
+          <div class="form-group has-error">
+          <label for="nom">Nom *</label>
+          <input type="text" class="form-control" id="nom" placeholder="Votre nom">
+          <span class="help-block">Ce champ doit être renseigné.</span>
+          </div>
+          <div class="form-group has-error">
+          <label for="date_naissance">Date de naissance *</label>
+          <input type="text" class="form-control" id="date_naissance" placeholder="Votre date de naissance">
+          <span class="help-block">Ce champ doit être renseigné.</span>
+          </div>
+          <div class="form-group">
+          <label for="adresse">Adresse</label>
+          <input type="text" class="form-control" id="adresse" placeholder="Votre adresse de naissance">
+          </div>
+          <div class="form-group">
+          <label for="code_postal">Code postal</label>
+          <input type="text" class="form-control" id="code_postal" placeholder="Votre code postal de naissance">
+          </div>
+          <div class="form-group">
+          <label for="localite">Localité</label>
+          <input type="text" class="form-control" id="localite" placeholder="Votre localité de naissance">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!--
+  # section 3
+  reprenez le formulaire de la section 1 mais, cette fois-ci,
+  mettez tous les labels dans une colonne `col-sm-2`,
+  et tous les champs dans une colonne `col-sm-10`
+
+  le labels doivent être ferrés (alignés) à droite
+
+  hint : horizontal form
+  -->
+
+  <section class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>section 3</h2>
+      </div>
+      <div class="col-md-8">
+        <p>
+          reprenez le formulaire de la section 1 mais, cette fois-ci, mettez tous les labels dans une colonne `col-sm-2` et tous les champs dans une colonne `col-sm-10`
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+
+    <form class="form-horizontal">
+
+      <div class="row form-group">
+        <div class="col-sm-2 control-label">
+          <label for="nom">Nom</label>
+        </div>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="nom" placeholder="Votre nom">
+        </div>
+      </div>
+
+      <div class="row form-group">
+        <div class="col-sm-2 control-label">
+          <label for="date_naissance">Date de naissance *</label>
+        </div>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="date_naissance" placeholder="Votre date de naissance">
+        </div>
+      </div>
+
+      <div class="row form-group">
+        <div class="col-sm-2 control-label">
+          <label for="adresse">Adresse</label>
+        </div>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="adresse" placeholder="Votre adresse de naissance">
+        </div>
+      </div>
+
+      <div class="row form-group">
+        <div class="col-sm-2 control-label">
+          <label for="code_postal">Code postal</label>
+        </div>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="code_postal" placeholder="Votre code postal de naissance">
+        </div>
+      </div>
+
+      <div class="row form-group">
+        <div class="col-sm-2 control-label">
+          <label for="localite">Localité</label>
+        </div>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="localite" placeholder="Votre localité de naissance">
+        </div>
+      </div>
+
+      <div class="row form-group">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-10">
+          <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+      </div>
+
+    </form>
+
+  </section>
+
+  <!--
+  # section 4
+  faites une mise en page en 1 colonne (toutes tailles)
+  dans la colonne insérer un formulaire :
+  - date (3 champs selects jour, mois et année)
+  - heure (2 champs selects heure et minutes)
+  - bouton de validation
+
+  chaque champ doit avoir un label qui sera positionné au dessus du champ
+  les selects ne doivent pas occuper 100% de la largeur du conteneur
+
+  hint : `width: auto;`
+  -->
+
+  <section class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>section 4</h2>
+      </div>
+      <div class="col-md-8">
+        <p>
+          faites une mise en page en 1 colonne (toutes tailles) dans la colonne insérer un formulaire :
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="form-group">
+          <label for="">Date</label>
+          <div>
+            <select class="form-control select-auto-width" id="jour" name="jour">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <select class="form-control select-auto-width" id="mois" name="mois">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <select class="form-control select-auto-width" id="annee" name="annee">
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="">Heure</label>
+          <div>
+            <select class="form-control select-auto-width" id="heure" name="heure">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <select class="form-control select-auto-width" id="minute" name="minute">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div><!-- /.col-xs-12 -->
+    </div><!-- /.row -->
+  </section>
+
+  <!--
+  # section 5
+  faites une mise en page en 1 colonne (toutes tailles)
+  dans la colonne insérer un formulaire :
+  - login
+  - password
+  - case à cocher « se souvenir de moi »
+  - bouton de validation
+
+  tous les champs doivent être sur une seule ligne
+
+  hint : inline form
+  -->
+
+  <section class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>section 5</h2>
+      </div>
+      <div class="col-md-8">
+        <p>
+          faites une mise en page en 1 colonne (toutes tailles) dans la colonne insérer un formulaire :
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <form class="form-inline">
+          <div class="form-group">
+          <label for="login">Login</label>
+          <input type="text" class="form-control" id="login" placeholder="Votre login">
+          </div>
+          <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Votre password">
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="se_souvenir" value="1"> <span>Se souvenir de moi</span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  </body>
+</html>
